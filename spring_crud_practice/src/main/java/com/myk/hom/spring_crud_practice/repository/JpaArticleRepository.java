@@ -48,4 +48,15 @@ public class JpaArticleRepository implements ArticleRepository {
         em.remove(article);
     }
 
+//    @Override
+//    public Optional<Member> findByName(String name) {
+//        List<Member> result = em.createQuery("select m from Member m where m.name = :name", Member.class)
+//                .setParameter("name", name)
+//                .getResultList();
+//
+//        return result.stream().findAny();
+//    }
+
+
+
 }
