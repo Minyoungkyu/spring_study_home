@@ -16,4 +16,6 @@ public interface ArticleRepository {
     Article doModify(Long id, String title, String body);
 
     void doDelete(Article article);
+
+    List<Article> doSearchArticles(String title, String body);
 }

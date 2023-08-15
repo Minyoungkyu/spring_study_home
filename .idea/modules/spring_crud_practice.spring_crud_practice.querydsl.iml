@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$/../../spring_crud_practice/src/main/java/com/myk/hom/spring_crud_practice/domain">
+      <sourceFolder url="file://$MODULE_DIR$/../../spring_crud_practice/src/main/java/com/myk/hom/spring_crud_practice/domain" isTestSource="false" packagePrefix="com.myk.hom.spring_crud_practice.domain" />
+    </content>
+  </component>
+</module>

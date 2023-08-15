@@ -48,4 +48,8 @@ public class ArticleService {
         articleRepository.doDelete(article);
         return deletId;
     }
+
+    public List<Article> doSearchArticles(String title, String body) {
+        return articleRepository.doSearchArticles(title, body);
+    }
 }

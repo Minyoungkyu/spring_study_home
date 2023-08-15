@@ -15,6 +15,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @RequiredArgsConstructor
+@Table(name = "article")
 public class Article {
 
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)

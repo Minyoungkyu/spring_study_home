@@ -57,4 +57,10 @@ public class ArticleController {
         else return result + " 번 삭제 완료";
     }
 
+    @GetMapping("/user/article/doSearch")
+    @ResponseBody
+    public List<Article> doSearchArticles(String title, String body) {
+        return articleService.doSearchArticles(title, body);
+    }
+
 }
